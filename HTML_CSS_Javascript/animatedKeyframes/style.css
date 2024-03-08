@@ -1,0 +1,31 @@
+.innerContainer {
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 200px;
+    background: black;
+    clip-path: ellipse(25% 40% at 50% 50%);
+}
+
+.subinnerContainer {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    clip-path: circle(50%);
+    margin: 0 auto;
+    /* display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px -3px #c0c5df;
+	background-color: #fff; */
+	overflow: hidden;
+	transition: 0.2s ease;
+}
+
+.abc {
+    width: 200px;
+    height: 300px;
+  }
+  

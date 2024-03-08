@@ -1,0 +1,143 @@
+ body {
+     background-color: rgb(181, 29, 29);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .container-box {
+     width: 360px;
+     padding: 33px;
+     text-align: center;
+     background-color: #fff;
+     margin-left: 33%;
+     margin-top: 5px;
+ }
+
+ input {
+     width: 270px;
+     padding: 8px;
+     border: 2px solid tomato;
+     outline: none;
+     font-size: 19px;
+ }
+
+ button {
+     width: 60px;
+     height: 41px;
+     background-color: black;
+     color: #fff;
+     border: none;
+     outline: none;
+     border-radius: 2px;
+     outline: none;
+     font-size: 19px;
+     cursor: pointer;
+
+ }
+
+ .result-container ul {
+     position: relative;
+     background-color: rgb(181, 29, 29);
+     color: #fff;
+     font-size: 19px;
+     padding: 7px;
+     text-align: left;
+ }
+
+ .result-container ul i {
+     position: absolute;
+     right: 10px;
+     cursor: pointer;
+     
+ }
+
+ /* .container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, 50%);
+}
+
+.container-subbox {
+    width: 500px;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.display-input {
+    display: flex;
+    justify-content: center;
+}
+
+input#input-text {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-size: 18px;
+    padding: 7px 8px;
+
+}
+
+/* CSS */
+ /* .button-22 {
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px 5px;
+}
+
+.button-22:active {
+    background-color: #006AE8;
+}
+
+.button-22:hover {
+    background-color: #1C84FF;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+#disc-task {
+    border-radius: 5px;
+    background: rgb(249, 250, 250);
+    border: 1px solid rgb(181, 189, 196);
+    font-size: 16px;
+    height: 40px;
+    line-height: 24px;
+    padding: 7px 8px;
+    color: rgb(8, 9, 10);
+    box-shadow: none;
+    border: none;
+}
+
+#disc-task:focus {
+    background-color: #fff;
+    border-color: #3b49df;
+    box-shadow: 1px 1px 0 #3b49df;
+} */
